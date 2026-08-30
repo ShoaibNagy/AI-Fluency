@@ -1,0 +1,6 @@
+[
+  { "id": 1, "description": "Design reviewed by lead", "is_complete": true, "is_mandatory": true },
+  { "id": 2, "description": "Stakeholder feedback incorporated", "is_complete": true, "is_mandatory": true },
+  { "id": 3, "description": "Performance benchmarks approved", "is_complete": true, "is_mandatory": false },
+  { "id": 4, "description": "Documentation updated", "is_complete": true, "is_mandatory": false }
+]

@@ -1,0 +1,10 @@
+// ~/Library/Application Support/Claude/claude_desktop_config.json (macOS)
+// or %APPDATA%\Claude\claude_desktop_config.json (Windows)
+{
+  "mcpServers": {
+    "phase-gate-validator": {
+      "command": "node",
+      "args": ["/path/to/phase-gate-validator/dist/server.js"]
+    }
+  }
+}
