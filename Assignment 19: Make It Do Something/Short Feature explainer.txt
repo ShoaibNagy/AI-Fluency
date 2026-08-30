@@ -1,0 +1,7 @@
+What This Feature Does
+The Light/Dark Mode toggle on your portfolio does one thing well: it lets visitors choose how they want to read your site. It works entirely in the browser — no backend, no server, no external dependencies. Everything happens locally, which makes it fast, private, and free to run.
+
+The feature has three parts:
+    1- The toggle buttons – two small switches: one in the top‑right corner of the desktop header, and a second one inside the mobile navigation menu. Both do exactly the same thing.
+    2- The theme logic – JavaScript that detects clicks, changes the theme, and remembers your choice.
+    3- The styles – CSS that defines what “dark” and “light” actually look like (colours, backgrounds, text, borders).

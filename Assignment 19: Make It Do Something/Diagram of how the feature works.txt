@@ -1,0 +1,10 @@
+┌────────────────┐     ┌────────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  You click the │ ──→ │ toggleTheme()      │ ──→ │ applyTheme()     │ ──→ │ CSS applies the │
+│  toggle button │     │ is called          │     │ sets data-theme  │     │ new colours     │
+└────────────────┘     └────────────────────┘     └──────────────────┘     └─────────────────┘
+                                                           │
+                                                           ▼
+                                                 ┌────────────────────┐
+                                                 │ localStorage       │
+                                                 │ saves your choice  │
+                                                 └────────────────────┘
