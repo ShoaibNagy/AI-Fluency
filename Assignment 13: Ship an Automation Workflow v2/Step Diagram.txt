@@ -1,0 +1,76 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         WEEKLY INDUSTRY BRIEF PIPELINE                      │
+│                            (No-Code, 5 Steps)                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────┐
+│  STEP 1: GATHER      │
+│  (NotebookLM Deep    │
+│   Research Agent)    │
+│                      │
+│  Input: 5-10 source  │
+│  URLs (industry      │
+│  blogs, release      │
+│  notes, forums)      │
+│                      │
+│  Output: Raw         │
+│  source-grounded     │
+│  research notes      │
+│  with citations      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  STEP 2: SYNTHESIZE  │
+│  (Claude Project —   │
+│   Structured Prompt) │
+│                      │
+│  Input: Research     │
+│  notes from Step 1   │
+│                      │
+│  Output: Categorized │
+│  themes, key         │
+│  findings, trends    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  STEP 3: DRAFT       │
+│  (Claude Project —   │
+│   Content Drafting)  │
+│                      │
+│  Input: Synthesized  │
+│  themes + findings   │
+│                      │
+│  Output: First draft │
+│  of industry brief   │
+│  (5-7 paragraphs)    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  STEP 4: REVIEW &    │
+│  CRITIQUE            │
+│  (Claude Project —   │
+│   Evaluator Prompt)  │
+│                      │
+│  Input: First draft  │
+│                      │
+│  Output: Structured  │
+│  critique with       │
+│  specific fixes      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  STEP 5: FORMAT      │
+│  (Claude Project —   │
+│   Final Polish)      │
+│                      │
+│  Input: Draft +      │
+│  critique fixes      │
+│                      │
+│  Output: Final,      │
+│  formatted brief     │
+│  (ready to share)    │
+└─────────────────────┘
