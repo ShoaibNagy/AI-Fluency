@@ -32,11 +32,3 @@ All six are in the diff — `index.html`, `dist/styles.css`, `styles/_animations
 | 4 | **No authoritative speed score.** Static analysis is genuinely good: total page weight is ~64 KB (28 KB HTML + 28 KB CSS + 8 KB JS), no local images, fonts use `preconnect` + `display=swap` correctly. But that's not the same as a real Lighthouse/PageSpeed number. | I don't have a live-browser speed tool in this environment. **Run this yourself:** [PageSpeed Insights](https://pagespeed.web.dev/), paste the live URL — takes about 30 seconds. |
 | 5 | **Real cross-browser/cross-device testing.** I rendered the compiled site at 390px/768px/1440px widths and traced the JS logic by reading the code, but that's not the same as opening it on an actual phone or in actual Safari/Firefox. | Requires a real device/browser, which is exactly the "browser you haven't tested" the brief means — this one's on you. |
 | 6 | **LinkedIn link unverified.** LinkedIn blocks automated fetching (robots.txt), so I couldn't confirm the profile URL resolves. | Click it yourself — one click, ten seconds. |
-
-## Still needed from you
-
-- Click through the live site yourself on a phone and in a browser you don't normally use.
-- Run [PageSpeed Insights](https://pagespeed.web.dev/) on the live URL and note the score.
-- Click the LinkedIn link to confirm it resolves.
-- Decide whether the `mailto:`-only contact is good enough, or worth a real form later.
-- **Hardening review**: get this list + the fixes in front of a mentor or peer — that's a real human step, not something I can do for you.
