@@ -1,0 +1,1 @@
+One of the projects I'm proud of is a video editing platform. Although it's still in-progress since I just finished the System Design Phase and I am currently in the UI/UX Design Phase, I learned new things in the process like the level of the Data Flow Diagram. I am excited to see it shipped to the public.
